@@ -21,10 +21,18 @@
                     <span class="bar"></span>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#features" class="nav-link">Features</a></li>
-                    <li><a href="#platforms" class="nav-link">Platforms</a></li>
-                    <li><a href="#download" class="nav-link">Download</a></li>
+                    <li><a href="#home" class="nav-link" data-i18n="home">Home</a></li>
+                    <li><a href="#features" class="nav-link" data-i18n="features">Features</a></li>
+                    <li><a href="#platforms" class="nav-link" data-i18n="platforms">Platforms</a></li>
+                    <li><a href="#about" class="nav-link" data-i18n="about">About</a></li>
+                    <li class="language-selector">
+                        <a href="#" class="nav-link"><span data-i18n="language">Language</span> <i class="fas fa-chevron-down"></i></a>
+                        <ul class="language-dropdown">
+                            <li><a href="#" data-lang="en" class="active">English</a></li>
+                            <li><a href="#" data-lang="cs">Čeština</a></li>
+                            <li><a href="#" data-lang="sk">Slovenčina</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -33,11 +41,11 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Track Your Movies & TV Shows with Nexee</h1>
-                <p>The ultimate companion for organizing and planning your viewing experience across multiple platforms.</p>
+                <h1 data-i18n="heroTitle">Track Your Movies & TV Shows with Nexee</h1>
+                <p data-i18n="heroDesc">The ultimate companion for organizing and planning your viewing experience across multiple platforms.</p>
                 <div class="hero-buttons">
-                    <a href="#download" class="btn btn-primary">Get Started</a>
-                    <a href="#features" class="btn btn-secondary">Learn More</a>
+                    <a href="#about" class="btn btn-primary" data-i18n="getStarted">Get Started</a>
+                    <a href="#features" class="btn btn-secondary" data-i18n="learnMore">Learn More</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -49,51 +57,51 @@
     <section id="features" class="features">
         <div class="container">
             <div class="section-header">
-                <h2>Features</h2>
-                <p>Discover what makes Nexee the perfect companion for movie and TV show enthusiasts</p>
+                <h2 data-i18n="featuresTitle">Features</h2>
+                <p data-i18n="featuresDesc">Discover what makes Nexee the perfect companion for movie and TV show enthusiasts</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-check-circle"></i>
                     </div>
-                    <h3>Track Watched Content</h3>
-                    <p>Keep a record of all the movies and TV shows you've watched.</p>
+                    <h3 data-i18n="trackContent">Track Watched Content</h3>
+                    <p data-i18n="trackContentDesc">Keep a record of all the movies and TV shows you've watched.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-search"></i>
                     </div>
-                    <h3>Streaming Availability</h3>
-                    <p>Find out where to watch your favorite content across various streaming platforms.</p>
+                    <h3 data-i18n="streamingAvailability">Streaming Availability</h3>
+                    <p data-i18n="streamingAvailabilityDesc">Find out where to watch your favorite content across various streaming platforms.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-bell"></i>
                     </div>
-                    <h3>Release Notifications</h3>
-                    <p>Get notified about upcoming releases and premieres.</p>
+                    <h3 data-i18n="releaseNotifications">Release Notifications</h3>
+                    <p data-i18n="releaseNotificationsDesc">Get notified about upcoming releases and premieres.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-link"></i>
                     </div>
-                    <h3>Service Integration</h3>
-                    <p>Seamless integration with trakt.tv, simkl, and TMDB for up-to-date information.</p>
+                    <h3 data-i18n="serviceIntegration">Service Integration</h3>
+                    <p data-i18n="serviceIntegrationDesc">Seamless integration with trakt.tv, simkl, and TMDB for up-to-date information.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-desktop"></i>
                     </div>
-                    <h3>User-Friendly Interface</h3>
-                    <p>Intuitive design optimized for all supported platforms.</p>
+                    <h3 data-i18n="userInterface">User-Friendly Interface</h3>
+                    <p data-i18n="userInterfaceDesc">Intuitive design optimized for all supported platforms.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-play-circle"></i>
                     </div>
-                    <h3>Trailer Playback</h3>
-                    <p>Watch trailers directly within the app before deciding what to watch.</p>
+                    <h3 data-i18n="trailerPlayback">Trailer Playback</h3>
+                    <p data-i18n="trailerPlaybackDesc">Watch trailers directly within the app before deciding what to watch.</p>
                 </div>
             </div>
         </div>
@@ -102,50 +110,43 @@
     <section id="platforms" class="platforms">
         <div class="container">
             <div class="section-header">
-                <h2>Available Platforms</h2>
-                <p>Nexee is available on multiple Apple platforms</p>
+                <h2 data-i18n="platformsTitle">Available Platforms</h2>
+                <p data-i18n="platformsDesc">Nexee is available on multiple Apple platforms</p>
             </div>
             <div class="platforms-grid">
                 <div class="platform-card">
                     <div class="platform-icon">
                         <i class="fab fa-apple"></i>
                     </div>
-                    <h3>macOS</h3>
-                    <p>Track your content on your Mac with our desktop application.</p>
+                    <h3 data-i18n="macOS">macOS</h3>
+                    <p data-i18n="macOSDesc">Track your content on your Mac with our desktop application.</p>
                 </div>
                 <div class="platform-card">
                     <div class="platform-icon">
                         <i class="fas fa-mobile-alt"></i>
                     </div>
-                    <h3>iOS</h3>
-                    <p>Take Nexee with you on your iPhone and iPad.</p>
+                    <h3 data-i18n="iOS">iOS</h3>
+                    <p data-i18n="iOSDesc">Take Nexee with you on your iPhone and iPad.</p>
                 </div>
                 <div class="platform-card">
                     <div class="platform-icon">
                         <i class="fas fa-tv"></i>
                     </div>
-                    <h3>tvOS</h3>
-                    <p>Enjoy Nexee on your Apple TV for a seamless living room experience.</p>
+                    <h3 data-i18n="tvOS">tvOS</h3>
+                    <p data-i18n="tvOSDesc">Enjoy Nexee on your Apple TV for a seamless living room experience.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="download" class="download">
+    <section id="about" class="about">
         <div class="container">
             <div class="section-header">
-                <h2>Get Nexee Today</h2>
-                <p>Download the app on your favorite platform</p>
+                <h2 data-i18n="aboutTitle">About Nexee</h2>
+                <p data-i18n="aboutDesc">Learn more about our application</p>
             </div>
-            <div class="download-buttons">
-                <a href="#" class="download-btn">
-                    <i class="fab fa-app-store"></i>
-                    <span>App Store</span>
-                </a>
-                <a href="#" class="download-btn">
-                    <i class="fab fa-apple"></i>
-                    <span>Mac App Store</span>
-                </a>
+            <div class="about-content">
+                <p data-i18n="aboutContent">Nexee is currently in development. Our team is working hard to bring you the best movie and TV show tracking experience across Apple platforms. Stay tuned for updates!</p>
             </div>
         </div>
     </section>
@@ -155,28 +156,28 @@
             <div class="footer-content">
                 <div class="footer-logo">
                     <h2>Nexee</h2>
-                    <p>Your movie and TV show companion</p>
+                    <p data-i18n="footerDesc">Your movie and TV show companion</p>
                 </div>
                 <div class="footer-links">
-                    <h3>Links</h3>
+                    <h3 data-i18n="links">Links</h3>
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#platforms">Platforms</a></li>
-                        <li><a href="#download">Download</a></li>
+                        <li><a href="#home" data-i18n="home">Home</a></li>
+                        <li><a href="#features" data-i18n="features">Features</a></li>
+                        <li><a href="#platforms" data-i18n="platforms">Platforms</a></li>
+                        <li><a href="#about" data-i18n="about">About</a></li>
                     </ul>
                 </div>
-                <div class="footer-social">
-                    <h3>Connect</h3>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
+                <div class="footer-github">
+                    <h3 data-i18n="github">GitHub</h3>
+                    <p>
+                        <a href="https://github.com/nexee" target="_blank">
+                            <i class="fab fa-github"></i> <span data-i18n="visitGithub">Visit our GitHub</span>
+                        </a>
+                    </p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2023 Nexee. All rights reserved.</p>
+                <p>&copy; <span id="current-year">2023</span> Nexee. <span data-i18n="copyright">All rights reserved.</span></p>
             </div>
         </div>
     </footer>
