@@ -76,6 +76,7 @@ window.addEventListener('scroll', function() {
 // Language translations
 const translations = {
     en: {
+        support: "Support",
         home: "Home",
         features: "Features",
         platforms: "Platforms",
@@ -114,9 +115,15 @@ const translations = {
         links: "Links",
         github: "GitHub",
         visitGithub: "Visit our GitHub",
-        copyright: "All rights reserved."
+        copyright: "All rights reserved.",
+        privacy: "Privacy Policy",
+        privacyTitle: "Privacy Policy",
+        privacyDesc: "Last updated: May 21, 2023",
+        privacyIntro: "At Nexee, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our Nexee application (\"Application\"). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the application.",
+        backToHome: "← Back to Home"
     },
     cs: {
+        support: "Podpora",
         home: "Domů",
         features: "Funkce",
         platforms: "Platformy",
@@ -155,9 +162,15 @@ const translations = {
         links: "Odkazy",
         github: "GitHub",
         visitGithub: "Navštivte náš GitHub",
-        copyright: "Všechna práva vyhrazena."
+        copyright: "Všechna práva vyhrazena.",
+        privacy: "Zásady ochrany osobních údajů",
+        privacyTitle: "Zásady ochrany osobních údajů",
+        privacyDesc: "Poslední aktualizace: 21. května 2023",
+        privacyIntro: "V Nexee bereme vaše soukromí vážně. Tyto zásady ochrany osobních údajů vysvětlují, jak shromažďujeme, používáme, zveřejňujeme a chráníme vaše informace při používání naší aplikace Nexee (\"Aplikace\"). Přečtěte si prosím tyto zásady ochrany osobních údajů pečlivě. Pokud nesouhlasíte s podmínkami těchto zásad ochrany osobních údajů, prosím, nepoužívejte aplikaci.",
+        backToHome: "← Zpět na hlavní stránku"
     },
     sk: {
+        support: "Podpora",
         home: "Domov",
         features: "Funkcie",
         platforms: "Platformy",
@@ -196,7 +209,12 @@ const translations = {
         links: "Odkazy",
         github: "GitHub",
         visitGithub: "Navštívte náš GitHub",
-        copyright: "Všetky práva vyhradené."
+        copyright: "Všetky práva vyhradené.",
+        privacy: "Zásady ochrany osobných údajov",
+        privacyTitle: "Zásady ochrany osobných údajov",
+        privacyDesc: "Posledná aktualizácia: 21. mája 2023",
+        privacyIntro: "V Nexee berieme vaše súkromie vážne. Tieto zásady ochrany osobných údajov vysvetľujú, ako zhromažďujeme, používame, zverejňujeme a chránime vaše informácie pri používaní našej aplikácie Nexee (\"Aplikácia\"). Prečítajte si prosím tieto zásady ochrany osobných údajov pozorne. Ak nesúhlasíte s podmienkami týchto zásad ochrany osobných údajov, prosím, nepoužívajte aplikáciu.",
+        backToHome: "← Späť na hlavnú stránku"
     }
 };
 
