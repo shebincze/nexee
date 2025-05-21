@@ -56,7 +56,7 @@ Nexee is currently in active development. Our team is working hard to bring you 
 
 ## Contact
 
-For more information about Nexee, please visit our [GitHub repository](https://github.com/nexee).
+https://github.com/shebincze/nexee/
 
 ## License
 
